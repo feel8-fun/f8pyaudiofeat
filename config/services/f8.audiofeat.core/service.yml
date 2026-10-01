@@ -8,4 +8,4 @@ launch:
   - -m
   - f8pyaudiofeat.main_core
   env: {}
-  workdir: ../../..
+  workdir: ${F8_PACKAGE_ROOT}
