@@ -18,3 +18,12 @@ f8pyaudiofeat = {path = ".", editable = true}
 
 [tasks]
 check = "python -m f8pysdk.extension_packaging --check"
+
+[tasks.f8pyaudiofeat_core]
+cmd = "python -m f8pyaudiofeat.main_core"
+
+[tasks.f8pyaudiofeat_rhythm]
+cmd = "python -m f8pyaudiofeat.main_rhythm"
+
+[environments]
+audiofeat = []
