@@ -1060,6 +1060,9 @@ packages:
   - eclipse-zenoh>=1.9.0,<1.10
   - msgpack>=1.0
   - pyyaml>=6.0.3,<7
+  - httpx>=0.28,<1 ; extra == 'media'
+  - pydantic>=2.11,<3 ; extra == 'platform-api'
+  - httpx>=0.28,<1 ; extra == 'platform-client'
   requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/05/7f/798705f5296a58ca505d600456748d1be48078eac8a7050d8a98bc9edb89/decorator-5.3.1-py3-none-any.whl
   name: decorator
